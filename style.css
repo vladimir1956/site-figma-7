@@ -1,0 +1,100 @@
+html{
+    box-sizing: border-box;
+}
+*,
+*::after,
+*::before{
+    box-sizing: inherit;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+@font-face{
+    font-family: 'Lato';
+    src: url('./fonts/LatoBold.woff2') format('woff2');
+    font-display: swap;
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'Lato';
+    src: url('./fonts/LatoRegular.woff2') format('woff2');
+    font-display: swap;
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'Ubuntu';
+    src: url('./fonts/UbuntuBold.woff2') format('woff2');
+    font-display: swap;
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'Ubuntu';
+    src: url('./fonts/UbuntuRegular.woff2') format('woff2');
+    font-display: swap;
+    font-weight: 400;
+    font-style: normal;
+}
+.list-reset{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.btn-reset{
+    border: none;
+    padding: 0;
+    background: transparent;
+    cursor: pointer;
+}
+body{
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+    font-family: 400;
+}
+:root{
+    --color-light: #fff;
+    --color-grey:#838383;
+    --color-dark:#1d1d1f;
+}
+.header__container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 0 15px;
+    max-width: 1230px;
+    height: 170px;
+    background-color: bisque;
+}
+.nav__list {
+    display: flex;
+}
+.nav__item {
+}
+.nav__link {
+}
+.header-contacts {
+}
+.header-contacts__link {
+}
+.contacts__link {
+}
+.contacts__link--call {
+}
+.contacts__link__caption {
+}
+.contacts__link__value {
+}
+.contacts__link--mail {
+}

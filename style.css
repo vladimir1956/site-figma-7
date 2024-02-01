@@ -66,6 +66,9 @@ body{
     --color-light: #fff;
     --color-grey:#424551;
     --color-black:#000;
+    --color-storm:#787a80;
+    --color-ebony:#1e212c;
+    --color-primary:#ff5a30;
 }
 .header{
     padding: 23px 0;
@@ -79,7 +82,7 @@ body{
     max-width: 1230px;
 }
 .logo {
-    margin-left: 100px;
+    
 }
 .header__nav{
     margin-left: -35px;
@@ -137,4 +140,81 @@ body{
 }
 .contacts__link--mail {
     background-image: url('./img/Chat.svg');
+}
+.hero {
+    padding-top: 220px;
+    padding-bottom: 320px;
+    color: var(--color-light);
+    background-image: url('./img/bg-image.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: var(--color-grey);
+}
+.container {
+    margin: 0 auto;
+    padding: 0 15px;
+    max-width: 1230px;
+}
+.hero__container {
+}
+.hero__content {
+    max-width: 595px;
+}
+.hero__title {
+    margin: 0;
+    margin-bottom: 24px;
+    font-family: Ubuntu;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: var(--color-light);
+}
+.hero__title span{
+    color: #ff5a30;
+}
+.hero__desc {
+    margin: 0;
+    margin-bottom: 61px;
+    font-family: Ubuntu;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; 
+}
+
+.hero__btns {
+}
+.hero__btns .btn:not(:last-child){
+    margin-right: 24px;
+}
+.btn-reset {
+}
+.btn {
+    border-radius: 4px;
+    padding: 0px 30px;
+    text-align: center;
+    font-family: Ubuntu;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 52px; 
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    color: var(--color-light);
+}
+.btn--stroke {
+    border-style: solid;
+    border-width: 1px;
+}
+.btn--stroke-light {
+    border-color: var(--color-light);
+}
+.btn--fill {
+    background-color: var(--color-primary);
+}
+.btn--fill-primary {
 }

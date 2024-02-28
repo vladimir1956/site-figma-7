@@ -954,7 +954,7 @@ body{
     background-size: 10px 8px;
     background-repeat: no-repeat;
     opacity: 0;
-    transition: opacity 0.3s ease-in-out;
+    transition: opacity 0.3s ease-in-outork;
 }
 .custom-checkbox__text::before {
     content: "";
@@ -989,4 +989,80 @@ body{
     background-color: var(--color-primary);
     color: var(--color-light);
     margin-top: 30px;
+}
+.footer {
+    padding: 50px 0;
+    color: var(--color-light);
+    background-color: var(--color-ebony);
+}
+.footer__container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 50px;
+}
+.footer__left {
+    grid-column: 7 span;
+}
+.footer__social{
+    
+}
+.logo {
+}
+.footer__logo {
+}
+.footer__img {
+}
+.social {
+}
+.list-reset {
+}
+.social__item {
+}
+.social__link {
+}
+.footer__desc {
+}
+.footer-form {
+    grid-column: 5 span;
+}
+.footer-form__subtitle {
+}
+.footer-form__items {
+}
+.form-field {
+}
+.form-field--grey {
+}
+.contact-form__field {
+}
+.form-field__input {
+}
+.footer-form__btn {
+}
+.btn-reset {
+}
+.footer-form__desc {
+}
+.footer-address {
+}
+.footer-address__title {
+}
+.footer-address__item {
+}
+.footer-address__name {
+}
+.footer-nav {
+}
+.footer-nav__col {
+}
+.footer-nav__title {
+}
+.footer-nav__items {
+}
+.footer-nav__item {
+}
+.footer-nav-link {
+}
+.footer-copyright {
 }

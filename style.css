@@ -145,6 +145,7 @@ body{
 .hero {
     padding-top: 220px;
     padding-bottom: 320px;
+    min-height: 600px;
     color: var(--color-light);
     background-image: url('./img/bg-image.jpg');
     background-position: center;

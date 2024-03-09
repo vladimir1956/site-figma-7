@@ -271,3 +271,39 @@
     font-size: 16px;
     line-height: 160%;
 }
+/*--------------benefits-two------------*/
+.benefits-two{
+    position: relative;
+    background-color: var(--color-ebony);
+    color: var(--color-light);
+    padding-bottom: 60px;
+}
+.benefits-two__title{
+    margin: 0;
+    padding-top: 40px;
+    margin-bottom: 20px;
+    color: var(--color-light);
+}
+
+.benefits-two__btn {
+    position: absolute;
+    align-items: center;
+    bottom: 0;
+    left: 43%;    
+}
+.benefits-two__btn--big {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 314%;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    text-align: center;
+    color: var(--color-primary);
+}
+.btn {
+    border: 1px solid var(--color-primary);
+    border-radius: 4px;
+    padding: 12px 52px;
+    width: 160px;
+    height: 44px;
+}

@@ -1,0 +1,47 @@
+.benefits-two{
+    position: relative;
+    background-color: var(--color-ebony);
+    color: var(--color-light);
+    padding-bottom: 60px;
+}
+.benefits-two__title{
+    margin: 0;
+    padding-top: 40px;
+    margin-bottom: 20px;
+    color: var(--color-light);
+}
+.benefits__item--img1{
+    background-image: url('./img/services/contract.svg');
+}
+.benefits__item--img2{
+    background-image: url('./img/camera.svg');
+}
+
+.benefits__item--img3{
+    background-image: url('./img/Group.svg');
+}
+.benefits-two__btn {
+    position: absolute;
+    align-items: center;
+    bottom: 0;
+    left: 43%;    
+}
+.benefits-two__btn--big {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 314%;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    text-align: center;
+    color: var(--color-primary);
+}
+.btn {
+    border: 1px solid var(--color-primary);
+    border-radius: 4px;
+    padding: 12px 52px;
+    width: 160px;
+    height: 44px;
+}
+.benefits__item--quality {
+    background-image: url('./img/value1.svg');
+}

@@ -301,11 +301,11 @@ body{
     height: 100%;
     object-fit: cover;
 }
-.mission {
+.benefits {
 
     background-color: var(--color-light);
 }
-.mission__title {
+.benefits__title {
     margin: 0;
     margin-bottom: 25px;
     text-align: center;
@@ -314,7 +314,7 @@ body{
     line-height: 130%;
     color: var(--color-ebony);
 }
-.mission__desc {
+.benefits__desc {
     margin: 0;
     margin-bottom: 60px;
     text-align: center;
@@ -322,12 +322,12 @@ body{
     line-height: 150%;
     color: var(--color-storm);
 }
-.mission__list {
+.benefits__list {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 188px;
 }
-.mission__item {
+.benefits__item {
     position: relative;
     padding-top: 50px;
     text-align: center;
@@ -335,7 +335,7 @@ body{
     background-size: 48px 48px;
     background-repeat: no-repeat;
 }
-.mission__item:not(:last-child)::after {
+.benefits__item:not(:last-child)::after {
     content: "";
     position: absolute;
     right: -35%;
@@ -349,10 +349,10 @@ body{
     background-size: cover;
 }
 
-.mission__item--quality {
+.benefits__item--quality {
     background-image: url('./img/value1.svg');
 }
-.mission__subtitle {
+.benefits__subtitle {
     font-family: Ubuntu;
     font-size: 20px;
     font-weight: 700;
@@ -360,7 +360,7 @@ body{
     letter-spacing: 0%;
     text-align: center;
 }
-.mission__subtitle--desc {
+.benefits__subtitle--desc {
     font-family: Ubuntu;
     font-size: 16px;
     font-weight: 400;
@@ -368,10 +368,10 @@ body{
     letter-spacing: 0%;
     text-align: center
 }
-.mission__item--safety {
+.benefits__item--safety {
     background-image: url('./img/value2.svg');
 }
-.mission__item--comfort {
+.benefits__item--comfort {
     background-image: url('./img/value3.svg');
 }
 .service {

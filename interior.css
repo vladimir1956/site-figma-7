@@ -22,26 +22,117 @@
 }
 .benefits-two__btn {
     position: absolute;
+    color: white;
     align-items: center;
     bottom: 0;
-    left: 43%;    
+    left: 43%;  
+    margin-bottom: -20px; 
 }
 .benefits-two__btn--big {
+    color: white;
     font-weight: 700;
     font-size: 14px;
     line-height: 314%;
     letter-spacing: 0.04em;
     text-transform: uppercase;
     text-align: center;
-    color: var(--color-primary);
+    margin-bottom: -1px;
 }
-.btn {
+a.btn-two {
+    color: white;
+    background-color: var(--color-primary);
     border: 1px solid var(--color-primary);
     border-radius: 4px;
     padding: 12px 52px;
     width: 160px;
     height: 44px;
+
 }
 .benefits__item--quality {
     background-image: url('./img/value1.svg');
+}
+.pricing {
+    
+}
+.container {
+}
+.pricing__title {
+    margin: 0;
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 130%;
+    text-align: center;
+}
+.pricing__desc {
+    margin: 0;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    text-align: center;
+    color: gray;
+}
+.table-wrapper{
+    overflow: hidden;
+    border: 1px solid #e5e8eD;
+    border-collapse: collapse;
+}
+.pricing__table {
+   
+}
+.table {
+    width: 100%;
+    border-radius: 4px;
+ /*   width: 1230px;
+    height: 743px;*/
+    box-shadow: 
+    0 4px 4px -4px rgba(30, 33, 44, 0.03), 
+    0 12px 10px -6px rgba(154, 156, 165, 0.04), 
+    0 30px 24px -10px rgba(154, 156, 165, 0.05), 
+    0 80px 80px -20px rgba(154, 156, 165, 0.08);
+}
+.table__header {
+}
+.table__row {
+}
+.table__th:first-child {
+    text-align: left;
+}
+.table__title {
+}
+.table__desc {
+}
+.table__body .table__row:nth-child(odd) {
+    background-color: #f4f5f7;
+
+}
+.table__col:first-child {
+    text-align: left;
+}
+.table__col {
+    text-align: center;
+}
+.table__cheak {
+    display: inline-block;
+    vertical-align: middle;
+    width: 24px;
+    height: 24px;
+    background-image: url('./img/Line\ \(Stroke\).svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.btn {
+}
+.btn-reset {
+}
+.table__btn {
+    color:red;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 300%;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    text-align: center;
+    border-radius: 4px;
+    padding: 0px 24px;
 }

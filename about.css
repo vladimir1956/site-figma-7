@@ -1,0 +1,145 @@
+.nav__link--current{
+    color: red;
+}
+.about-work {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-image: url('./img/about-header.png');
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-color: #f4f5f7;
+}
+.achieve {
+    padding-top: 600px;
+    
+}
+.archieve__bg{
+    z-index: -1;
+    background-image: url('./img/bg-arhive.svg');
+    background-repeat: no-repeat;
+    background-position: right bottom -200px;
+}
+.achieve__container {
+
+z-index: 30;
+}
+.achieve__list {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 30px;
+    margin-bottom: 200px;
+}
+.list__reset {
+}
+.achieve__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    grid-column: 3 span;
+    padding-top: 70px;
+    background-position: top center;
+    background-size: 48px 48px;
+    background-repeat: no-repeat;
+}
+.achieve__item--img1 {
+    background-image: url('./img/ic-like.svg');
+}
+.achieve__item--img2 {
+    background-image: url('./img/ic-pantone.svg');
+}
+.achieve__item--img3 {
+    background-image: url('./img/ic-helmet.svg');
+}
+.achieve__item--img4 {
+    background-image: url('./img/ic-painting.svg');
+}
+.achieve__value {
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 130%;
+    margin-bottom: 10px;
+    text-align: center;
+    color: red;
+}
+.achieve__text {
+    max-width: 240px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    text-align: center;
+    color: grey;
+}
+.achieve__image {
+}
+.achieve__content {
+    display: flex;
+    align-items: flex-start;
+}
+.achieve__image {
+}
+.achieve__info {
+    position: relative;
+    top: -130px;
+    left: -30px;
+    padding: 90px;
+    padding-right: 40px;
+    z-index: 15;
+    flex-shrink: 0;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 150%;
+    border-radius: 4px;
+    width: 735px;
+    box-shadow: 
+    0 4px 4px -4px rgba(30, 33, 44, 0.03), 
+    0 12px 10px -6px rgba(154, 156, 165, 0.04), 
+    0 30px 24px -10px rgba(154, 156, 165, 0.05), 
+    0 80px 80px -20px rgba(154, 156, 165, 0.08);
+
+}
+.achieve__blog {
+}
+.blog__content::before {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    width: 28px;
+    height: 20px;
+    background-image: url('./img/braces.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.blog {
+}
+.blog__content{
+    position: relative;
+    padding: 0px 53px;
+    margin-bottom: 30px;
+}
+p.blog__content:not(:last-child){
+   margin-bottom: 30px;
+}
+.blog__footer {
+    padding: 20px 53px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: gray;
+    background-image: url('./img/signature.svg');
+    background-position:right 65px center;
+    background-size: 100px 68px;
+    background-repeat: no-repeat;
+}
+.blog__auther {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 160%;
+    color: black;
+}

@@ -1,0 +1,13 @@
+.nav__link--current{
+    color: red;
+}
+.header-work {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-image: url(./img/work-header.png);
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-color: #f4f5f7;
+}

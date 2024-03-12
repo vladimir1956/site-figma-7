@@ -299,11 +299,11 @@
     text-transform: uppercase;
     text-align: center;
     color: var(--color-primary);
+    padding: 12px 52px;
 }
 .btn {
     border: 1px solid var(--color-primary);
     border-radius: 4px;
-    padding: 12px 52px;
     width: 160px;
     height: 44px;
 }

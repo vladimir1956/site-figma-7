@@ -1,0 +1,52 @@
+.post-work{
+    background-color: #e7eaf0;
+    height: 500px;
+}
+.post-work__title{
+    max-width: none;
+    width: 1200px;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 120%;
+    letter-spacing: 0.02em;
+}
+.post-Work__bottom {
+    display: flex;
+    justify-content: space-between;
+}
+.post-work__meta {
+}
+.article-meta__item:nth-child(2) {
+    padding-left: 28px;
+    background-image: url('./img//post/Clock.svg');
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+.article-meta__item:nth-child(3) {
+    padding-left: 28px;
+    background-image: url('./img//post/Chat.svg');
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+.article-meta__item:not(:last-child){
+    margin-right: 23px;
+}
+.article-meta__item:first-child {
+    color: red;
+    font-weight: 700;
+}
+.post-work__social {
+    display: flex;
+    align-items: center;
+}
+.post {
+}
+.container {
+}
+.post-container {
+}
+.post__img {
+    width: 100%;
+    object-fit: cover;
+    transform: translateY(-30px);  
+}
